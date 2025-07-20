@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Howard's Mondrian Artwork</title>
+
+    <style>
+
+        h1, h2 a {
+            color: #F0F1EC;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: lightpink;
+        }
+
+        .box {
+            background-color: #F0F1EC;
+        }
+
+        .light-blue {
+            background-color: lightblue;
+        }
+        .bl-three {
+            grid-column: span 12;
+        }
+
+        .light-pink {
+            background-color: lightpink;
+        }
+
+        .black {
+            background-color: #232629;
+        }
+        .b-one {
+            grid-row: span 2;
+        }
+        .b-two {
+            grid-column: 3/4;
+        }
+
+        .yellow {
+            background-color: lightyellow;
+        }
+        .y-two {
+            grid-area: span 3 / span 4;
+        }
+        .y-three {
+            grid-area: span 3;
+        }
+
+
+        .red {
+            background-color: red;
+        }
+
+        .r-one {
+            grid-column: span 4;
+        }
+
+        body {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: seagreen;
+        }
+
+        .container  {
+
+            margin: 0;
+            padding: 0;
+
+            height: 748px;
+            width: 748px;
+            background-color: black;
+            display: grid;
+            grid-template-columns: .2fr .4fr .1fr repeat(2, .3fr) .1fr .543fr .314fr .2fr repeat(2, .4fr) .05fr;
+            grid-template-rows: repeat(2, .4fr) .6fr .2fr .4fr .1fr repeat(2, .3fr) .1fr .5fr .2fr .4fr;
+            gap: 4px;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>Howard's Version of Mondrian Art</h1>
+    <div class="container">
+        <!-- 1 -->
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+
+        <!-- 2 -->
+        <div class="box"></div>
+        <div class="box light-pink"></div>
+        <div class="box black b-two"></div>
+        <div class="box light-pink"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+
+        <!-- 3 -->
+        <div class="box"></div>
+        <div class="box light-blue"></div>
+        <div class="box light-pink"></div>
+        <div class="box light-blue"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+
+        <!-- 4 -->
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box black b-one"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box black b-one"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+
+        <!-- 5 -->
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+
+        <!-- 6 -->
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+
+        <!-- 7 -->
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box light-pink"></div>
+        <div class="box" ></div>
+        <div class="box"></div>
+        <div class="box light-pink"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box yellow y-two"></div>
+
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box yellow y-three"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box red r-one"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box light-blue"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box light-blue bl-two"></div>
+        <div class="box light-blue bl-three"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+
+        <div class="box light-blue"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box light-pink"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+
+    <h2><a href="index.html">Home</a></h2>
+</body>
+</html>
